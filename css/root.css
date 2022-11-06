@@ -1,0 +1,11 @@
+/* Reset e Estilos Globais*/
+@import "./global/minireset.min.css";
+@import "./global/global.css";
+
+/* Tipografias */
+@import "./util/cores.css";
+@import "./util/fonts.css";
+
+/* CSS Seções */
+@import "./styles/header.css";
+@import "./styles/main.css";

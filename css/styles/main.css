@@ -1,0 +1,19 @@
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)100%), url('./../../assets/img/main-bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+    width: 100%;
+}
+
+.main .main-aside {
+    position: absolute;
+    top: 30vh;
+    right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        height: 70vh;
+    }
+}

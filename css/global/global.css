@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.display-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
