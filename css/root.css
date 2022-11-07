@@ -1,11 +1,14 @@
-/* Reset e Estilos Globais*/
+/* Base */
 @import "./base/minireset.min.css";
-@import "./base/global.css";
+@import "./base/cores.css";
+@import "./base/fonts.css";
+@import "./base/base.css";
+@import "./base/generics.css";
 
-/* Tipografias */
-@import "./util/cores.css";
-@import "./util/fonts.css";
-
-/* CSS Seções */
+/* Layout */
 @import "./layout/header.css";
 @import "./layout/main.css";
+
+
+/* Module */
+@import "./module/menu.css";

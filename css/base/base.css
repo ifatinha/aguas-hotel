@@ -24,11 +24,3 @@ textarea {
 a {
     text-decoration: none;
 }
-
-.display-flex {
-    display: flex;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
