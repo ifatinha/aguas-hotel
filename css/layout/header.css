@@ -1,4 +1,4 @@
-.header {
+.l-header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -8,32 +8,27 @@
     z-index: 2;
 }
 
+.l-header nav a {
+    text-align: left;
+}
+
 .header-logo {
     flex: 1;
     text-align: left;
 }
 
-.menu-desktop {
+.nav-primaria {
     flex: 3;
 }
 
-.menu-desktop ul {
+.nav-primaria ul {
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: flex-end;
 }
 
-.header ul a {
-    color: var(--white);
-    font-family: "Montserrat", sans-serif;
-    font-size: var(--pequena);
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-}
-
-.menu-desktop ul a::after {
+.nav-primaria ul a::after {
     background-color: var(--white);
     content: "";
     display: block;
@@ -43,45 +38,12 @@
     width: 0;
 }
 
-.menu-desktop ul a:hover::after {
+.nav-primaria ul a:hover::after {
     width: 100%;
-}
-
-/* Menu mobile */
-.menu-mobile {
-    background: url("./../../assets/icons/menus.png") no-repeat center;
-    background-size: cover;
-    display: none;
-    height: 40px;
-    object-fit: cover;
-    width: 40px;
-}
-
-.menu-mobile .itens-menu {
-    display: none;
-    background: rgba(0, 0, 0, .9);
-    left: 0;
-    position: absolute;
-    top: 80px;
-    width: 100%;
-}
-
-.menu-mobile .itens-menu li {
-    border-bottom: 1px solid rgba(255, 255, 255, .15);
-    padding: 12px;
-    width: 100%;
-}
-
-.menu-mobile:hover .itens-menu {
-    display: block;
 }
 
 @media screen and (max-width: 800px) {
-    .menu-desktop {
+    .nav-primaria {
         display: none;
-    }
-
-    .menu-mobile {
-        display: block;
     }
 }

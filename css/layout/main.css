@@ -1,4 +1,4 @@
-.main {
+.l-main {
     background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)100%), url('./../../assets/img/main-bg.jpg') no-repeat center;
     background-size: cover;
     height: 110vh;
@@ -6,11 +6,33 @@
     width: 100%;
 }
 
-.main-aside {
+.sidenav {
+    overflow: hidden;
     position: absolute;
-    top: 30vh;
     right: 0;
+    top: 30vh;
 }
+
+.sidenav li {
+    background-color: rgba(50, 50, 50, .8);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    display: block;
+    /* margin-right: -130px; */
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    transition: .3s;
+}
+
+.sidenav li:hover {
+    /* margin-right: 0; */
+    background-color: brown;
+}
+
+/* .sidenav li a {
+    vertical-align: baseline;
+} */
 
 @media screen and (max-width: 600px) {
     .main {

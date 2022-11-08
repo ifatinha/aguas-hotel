@@ -17,7 +17,9 @@ h6,
 p,
 a,
 input,
-textarea {
+textarea,
+span,
+label {
     letter-spacing: 0.13px;
 }
 

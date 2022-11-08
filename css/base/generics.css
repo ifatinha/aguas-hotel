@@ -5,3 +5,11 @@
 .uppercase {
     text-transform: uppercase;
 }
+
+.link-padrao {
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--f-pequena);
+    font-weight: 500;
+    line-height: 20px;
+}

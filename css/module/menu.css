@@ -1,0 +1,36 @@
+/* Menu Mobile */
+
+.menu-mobile {
+    background: url("./../../assets/icons/menus.png") no-repeat center;
+    background-size: cover;
+    display: none;
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+}
+
+.menu-mobile .itens-menu {
+    display: none;
+    background: rgba(0, 0, 0, .9);
+    left: 0;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.menu-mobile .itens-menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+    padding: 12px;
+    width: 100%;
+}
+
+.menu-mobile:hover .itens-menu {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+
+    .menu-mobile {
+        display: block;
+    }
+}
