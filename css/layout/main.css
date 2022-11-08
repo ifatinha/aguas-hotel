@@ -19,20 +19,27 @@
     border-bottom-left-radius: 4px;
     cursor: pointer;
     display: block;
-    /* margin-right: -130px; */
     margin-bottom: 10px;
-    padding: 8px 15px;
+    padding: 10px 15px;
+    position: relative;
+    right: -130px;
     transition: .3s;
 }
 
 .sidenav li:hover {
-    /* margin-right: 0; */
-    background-color: brown;
+    right: 0;
 }
 
-/* .sidenav li a {
-    vertical-align: baseline;
-} */
+.sidenav li a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .sidenav {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .main {
