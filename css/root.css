@@ -9,7 +9,7 @@
 @import "./layout/header.css";
 @import "./layout/main.css";
 @import "./layout/hotel.css";
-
+@import "./layout/quartos.css";
 
 /* Module */
 @import "./module/menu.css";
