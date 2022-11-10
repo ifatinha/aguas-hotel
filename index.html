@@ -21,15 +21,15 @@
 </head>
 
 <body>
-    <header class="display-flex l-header">
-        <div class="header-logo">
+    <header class="display-flex header">
+        <div class="header__logo">
             <a href="./index.html">
                 <img src="./assets/img/logo.png" alt="Águas Hotel Logo" width="200" height="34">
             </a>
         </div>
 
-        <nav class="nav-primaria">
-            <ul class="display-flex">
+        <nav class="n-primaria n-desktop">
+            <ul class="display-flex n-desktop__itens">
                 <li><a href="#hotel" class="uppercase link-padrao">O hotel</a></li>
                 <li><a href="#quartos" class="uppercase link-padrao">Quartos</a></li>
                 <li><a href="#instalacoes" class="uppercase link-padrao">Instalações</a></li>
@@ -40,8 +40,8 @@
             </ul>
         </nav>
 
-        <nav class="menu-mobile">
-            <ul class="display-flex itens-menu">
+        <nav class="n-primaria n-mobile">
+            <ul class="display-flex menu__itens">
                 <li><a href="#hotel" class="uppercase link-padrao">O hotel</a></li>
                 <li><a href="#quartos" class="uppercase link-padrao">Quartos</a></li>
                 <li><a href="#instalacoes" class="uppercase link-padrao">Instalações</a></li>
@@ -53,7 +53,7 @@
         </nav>
     </header>
 
-    <main class="l-main">
+    <main class="main">
         <aside>
             <ul class="sidenav">
                 <li>
@@ -67,6 +67,29 @@
             </ul>
         </aside>
     </main>
+
+    <section id="hotel" class="hotel">
+        <div class="container display-flex">
+            <div class="hotel__descricao display-flex">
+                <span class="uppercase hotel--span">Prestando serviços de qualidade desde 1988</span>
+                <h1 class="hotel--titulo">Redefine a experiência de hospitalidade de luxo.</h1>
+                <p class="paragrafos hotel--paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Consequuntur
+                    dolore laboriosam saepe pariatur
+                    laborum libero reiciendis ducimus vel numquam, nisi beatae quia deserunt, nulla, sed magnam commodi
+                    culpa obcaecati consectetur.</p>
+                <p class="paragrafos hotel--paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Molestias quia
+                    doloremque consequatur, eum
+                    sequi doloribus dolore placeat consectetur ratione optio!</p>
+            </div>
+            <div class="hotel__image">
+                <img src="./assets/img/hotel-bg.png" alt="Imagens que mostram detalhes do hotel e de sua hospitalidade"
+                    width="800" height="785">
+            </div>
+        </div>
+    </section>
+
     <script src="https://kit.fontawesome.com/09fa9cee0a.js" crossorigin="anonymous"></script>
 </body>
 

@@ -1,6 +1,6 @@
 /* Menu Mobile */
 
-.menu-mobile {
+.n-mobile {
     background: url("./../../assets/icons/menus.png") no-repeat center;
     background-size: cover;
     display: none;
@@ -9,7 +9,7 @@
     width: 40px;
 }
 
-.menu-mobile .itens-menu {
+.menu__itens {
     display: none;
     background: rgba(0, 0, 0, .9);
     left: 0;
@@ -18,19 +18,19 @@
     width: 100%;
 }
 
-.menu-mobile .itens-menu li {
+.menu__itens li {
     border-bottom: 1px solid rgba(255, 255, 255, .15);
     padding: 12px;
     width: 100%;
 }
 
-.menu-mobile:hover .itens-menu {
+.n-mobile:hover .menu__itens {
     display: block;
 }
 
 @media screen and (max-width: 800px) {
 
-    .menu-mobile {
+    .n-mobile {
         display: block;
     }
 }
