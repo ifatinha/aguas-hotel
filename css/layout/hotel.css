@@ -31,8 +31,14 @@
     margin-bottom: 22px;
 }
 
+.hotel--btn {
+    border-radius: 30px;
+    padding: 8px 25px;
+    width: 150px;
+}
+
 @media screen and (max-width: 800px) {
-  
+
     .hotel--titulo {
         font-size: 1.56rem;
         line-height: 33px;

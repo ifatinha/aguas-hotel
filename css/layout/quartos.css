@@ -15,6 +15,63 @@
     margin-bottom: 22px;
 }
 
-.quartos__cards {
-    background-color: darkblue;
+.quartos__poster {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.poster--item {
+    background-color: var(--white-01);
+    flex: 1;
+    flex-direction: column;
+}
+
+.poster--imagem {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.poster--imagem img {
+    height: 100%;
+    transition: transform 1s;
+}
+
+.poster--imagem:hover img {
+    transform: scale(1.3);
+}
+
+.poster--detalhes {
+    padding: 35px;
+    text-align: center;
+}
+
+.poster--btn {
+    padding: 4px 5px;
+    margin-bottom: 20px;
+}
+
+.poster--link {
+    color: var(--black-02);
+    font-size: var(--fonte-14);
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .quartos__descricao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .poster--detalhes {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .quartos__poster {
+        flex-direction: column;
+    }
 }

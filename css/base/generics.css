@@ -26,3 +26,20 @@
     font-size: var(--fonte-14);
     line-height: 24px;
 }
+
+.btn-padrao {
+    background-color: var(--cinza-03);
+    border: 1px solid var(--cinza-03);
+    color: var(--white-01);
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fonte-12);
+    font-weight: 600;
+    line-height: 18px;
+    transition: .3s;
+    text-align: center;
+}
+
+.btn-padrao:hover {
+    opacity: 0.7;
+}
