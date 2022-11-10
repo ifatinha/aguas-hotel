@@ -2,19 +2,6 @@
     background-color: var(--white-02);
 }
 
-.quartos__descricao {
-    margin: 0 230px 80px;
-    text-align: center;
-}
-
-.quartos--titulo {
-    color: var(--amarelo-01);
-    font-family: 'Montserrat', sans-serif;
-    font-size: var(--fonte-35);
-    font-weight: 700;
-    margin-bottom: 22px;
-}
-
 .quartos__poster {
     flex-wrap: wrap;
     gap: 30px;
@@ -60,10 +47,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    .quartos__descricao {
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .poster--detalhes {
         padding: 10px;

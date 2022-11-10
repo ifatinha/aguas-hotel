@@ -10,6 +10,8 @@
 @import "./layout/main.css";
 @import "./layout/hotel.css";
 @import "./layout/quartos.css";
+@import "./layout/instalacoes.css";
 
 /* Module */
 @import "./module/menu.css";
+@import "./module/galeria.css";

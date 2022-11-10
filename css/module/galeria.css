@@ -1,0 +1,16 @@
+#galeria {
+    border-bottom: 1px solid #ececec;
+}
+
+.galeria {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 22px;
+    width: 100%;
+}
+
+.galeria__item {
+    flex: 0 1 352px;
+}

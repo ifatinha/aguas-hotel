@@ -43,3 +43,23 @@
 .btn-padrao:hover {
     opacity: 0.7;
 }
+
+.secao__textos {
+    margin: 0 230px 80px;
+    text-align: center;
+}
+
+.secao--titulo {
+    color: var(--amarelo-01);
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fonte-35);
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+@media screen and (max-width: 800px) {
+    .secao__textos {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,110 @@
+#instalacoes {
+    border-bottom: 1px solid #ececec;
+}
+
+.instalacoes {
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 990px;
+    width: 100%;
+}
+
+.instalacoes__menu {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.instalacoes--btn {
+    background-color: var(--white-03);
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.instalacoes--link {
+    color: var(--cinza-04);
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fonte-12);
+    font-weight: 600;
+    line-height: 44px;
+    padding: 0 25px;
+}
+
+.instalacoes__conteudo {
+    border-top: 1px solid #e5e5e5;
+    flex-direction: column;
+    padding-top: 55px;
+    width: 100%;
+}
+
+.instalacoes--item {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.instalacoes--item-imagem {
+    flex: 1;
+}
+
+.instalacoes--item-texto {
+    flex: 1;
+    margin-left: 80px;
+    padding: 0 15px;
+}
+
+.instalacoes--item-texto .paragrafos {
+    margin-bottom: 22px;
+}
+
+.instalacoes--item-span {
+    color: var(--cinza-06);
+    font-size: var(--fonte-18);
+    line-height: 28px;
+}
+
+.instalacoes--item-titulo {
+    color: var(--cinza-06);
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fonte-28);
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .instalacoes--link {
+        line-height: 38px;
+        padding: 0 15px;
+    }
+
+    .instalacoes--item-texto {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .instalacoes__menu {
+        border: 1px solid #e5e5e5;
+        gap: 0;
+    }
+
+    .instalacoes--btn {
+        border-left: none;
+        border-right: none;
+        width: 100%;
+    }
+
+    .instalacoes--item {
+        flex-direction: column;
+    }
+
+    .instalacoes--item-texto {
+        margin: 10px 0 0;
+        padding: 0;
+    }
+}

@@ -28,7 +28,7 @@
             </a>
         </div>
 
-        <nav class="n-primaria n-desktop">
+        <nav class="n-primaria n-desktop" aria-label="Navegação Principal">
             <ul class="display-flex n-desktop__itens">
                 <li><a href="#hotel" class="uppercase link-padrao">O hotel</a></li>
                 <li><a href="#quartos" class="uppercase link-padrao">Quartos</a></li>
@@ -68,7 +68,7 @@
         </aside>
     </main>
 
-    <section id="hotel" class="hotel">
+    <section id="hotel" class="hotel" aria-label="Apresentação do Hotel">
         <div class="container display-flex">
             <div class="hotel__descricao display-flex">
                 <span class="uppercase hotel--span">Prestando serviços de qualidade desde 1988</span>
@@ -93,11 +93,11 @@
         </div>
     </section>
 
-    <section id="quartos" class="quartos">
+    <section id="quartos" class="quartos" aria-label="Quartos e Suítes">
         <div class="container display-flex">
-            <div class="quartos__descricao">
-                <h2 class="uppercase quartos--titulo">Quartos e Suítes</h2>
-                <p class="paragrafos quartos--paragrafo">Lorem Ipsum is simply dummy text of the printing and
+            <div class="secao__textos">
+                <h2 class="uppercase secao--titulo">Quartos e Suítes</h2>
+                <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
@@ -135,6 +135,138 @@
                         <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has been the industry's.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <article id="galeria">
+        <ul class="display-flex galeria">
+            <li class="galeria__item">
+                <a href="./">
+                    <img src="./assets/img/cuisine-bg.jpg" alt="Imagem de alimentos em uma panela" width="800"
+                        height="1108">
+                </a>
+            </li>
+            <li class="galeria__item">
+                <a href="./">
+                    <img src="./assets/img/relaxation-bg.jpg" alt="Imagem de crianças sorrindo" width="800"
+                        height="1108">
+                </a>
+            </li>
+            <li class="galeria__item">
+                <a href="./">
+                    <img src="./assets/img/spa-bg.jpg" alt="Imagem de velas acessas e pedras relaxantes" width="800"
+                        height="1108">
+                </a>
+            </li>
+            <li class="galeria__item">
+                <a href="./">
+                    <img src="./assets/img/gol-bg.jpg" alt="Imagem de uma bola de golf" width="800" height="1108">
+                </a>
+            </li>
+        </ul>
+    </article>
+
+    <section id="instalacoes" aria-label="Instalações">
+        <div class="container display-flex">
+
+            <div class="secao__textos">
+                <h2 class="secao--titulo uppercase">Instalações do Hotel</h2>
+                <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+
+            <div class="display-flex instalacoes">
+
+                <ul class="display-flex instalacoes__menu">
+                    <li class="instalacoes--btn">
+                        <a href="./" class="uppercase instalacoes--link">Natação e Ginastica</a>
+                    </li>
+                    <li class="instalacoes--btn">
+                        <a href="./" class="uppercase instalacoes--link">Clube de esportes</a>
+                    </li>
+                    <li class="instalacoes--btn">
+                        <a href="./" class="uppercase instalacoes--link">Serviço de bagagens</a>
+                    </li>
+                    <li class="instalacoes--btn">
+                        <a href="./" class="uppercase instalacoes--link">Restaurante/Bar</a>
+                    </li>
+                </ul>
+                <div class="display-flex instalacoes__conteudo">
+                    <div class="display-flex instalacoes--item">
+                        <div class="instalacoes--item-imagem">
+                            <img src="./assets/img/swimming-bg.jpg" alt="Imagem de pessoa nadando" width="1232"
+                                height="857">
+                        </div>
+                        <div class="instalacoes--item-texto">
+                            <span class="instalacoes--item-span">A classe mundial</span>
+                            <h3 class="instalacoes--item-titulo">natação e academia.</h3>
+                            <p class="paragrafos">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. Lorem Ipsum is simply dummy text. </p>
+                            <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="display-flex instalacoes--item">
+                        <div class="instalacoes--item-imagem">
+                            <img src="./assets/img/sports-bg.jpg" alt="Imagem de pessoa fazendo ginastica" width="1232"
+                                height="857">
+                        </div>
+                        <div class="instalacoes--item-texto">
+                            <span class="instalacoes--item-span">A classe mundial</span>
+                            <h3 class="instalacoes--item-titulo">esportes e clube de golfe.</h3>
+                            <p class="paragrafos">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. Lorem Ipsum is simply dummy text. </p>
+                            <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        </div>
+                    </div>
+
+                    <div class="display-flex instalacoes--item">
+                        <div class="instalacoes--item-imagem">
+                            <img src="./assets/img/pick-bg.jpg" alt="Imagem de um carro" width="1232"
+                                height="857">
+                        </div>
+                        <div class="instalacoes--item-texto">
+                            <span class="instalacoes--item-span">A classe mundial</span>
+                            <h3 class="instalacoes--item-titulo">serviços de bagagem.</h3>
+                            <p class="paragrafos">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. Lorem Ipsum is simply dummy text. </p>
+                            <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        </div>
+                    </div>
+
+                    <div class="display-flex instalacoes--item">
+                        <div class="instalacoes--item-imagem">
+                            <img src="./assets/img/restaurant-bg.jpg" alt="Imagem de alimentos" width="1232"
+                                height="857">
+                        </div>
+                        <div class="instalacoes--item-texto">
+                            <span class="instalacoes--item-span">A classe mundial</span>
+                            <h3 class="instalacoes--item-titulo">restaurane e salão de festas.</h3>
+                            <p class="paragrafos">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. Lorem Ipsum is simply dummy text. </p>
+                            <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. It has
+                                survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
