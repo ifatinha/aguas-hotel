@@ -11,6 +11,7 @@
 @import "./layout/hotel.css";
 @import "./layout/quartos.css";
 @import "./layout/instalacoes.css";
+@import "./layout/servicos.css";
 
 /* Module */
 @import "./module/menu.css";

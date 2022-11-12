@@ -57,6 +57,10 @@
     margin-bottom: 22px;
 }
 
+.section {
+    padding: 110px 2%;
+}
+
 @media screen and (max-width: 800px) {
     .secao__textos {
         margin-left: auto;

@@ -76,6 +76,10 @@
     margin-bottom: 15px;
 }
 
+.is-none {
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .instalacoes--link {
         line-height: 38px;

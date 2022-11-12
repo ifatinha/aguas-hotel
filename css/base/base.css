@@ -27,10 +27,6 @@ a {
     text-decoration: none;
 }
 
-section {
-    padding: 110px 2%;
-}
-
 @media screen and (max-width: 800px) {
     section {
         padding-bottom: 60px;

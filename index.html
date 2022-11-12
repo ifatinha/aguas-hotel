@@ -10,10 +10,11 @@
     <meta name="keywords" content="hotel, praia, litoral">
 
     <link rel=" shortcut icon" href="./assets/icons/logo.png" type="image/x-icon">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/root.css">
 
@@ -33,7 +34,7 @@
                 <li><a href="#hotel" class="uppercase link-padrao">O hotel</a></li>
                 <li><a href="#quartos" class="uppercase link-padrao">Quartos</a></li>
                 <li><a href="#instalacoes" class="uppercase link-padrao">Instalações</a></li>
-                <li><a href="#galeria" class="uppercase link-padrao">Galeria</a></li>
+                <li><a href="#servicos" class="uppercase link-padrao">Serviços</a></li>
                 <li><a href="#ofertas" class="uppercase link-padrao">Ofertas</a></li>
                 <li><a href="#localizacao" class="uppercase link-padrao">Localização</a></li>
                 <li><a href="./" class="uppercase link-padrao">Agende agora</a></li>
@@ -45,7 +46,7 @@
                 <li><a href="#hotel" class="uppercase link-padrao">O hotel</a></li>
                 <li><a href="#quartos" class="uppercase link-padrao">Quartos</a></li>
                 <li><a href="#instalacoes" class="uppercase link-padrao">Instalações</a></li>
-                <li><a href="#galeria" class="uppercase link-padrao">Galeria</a></li>
+                <li><a href="#servicos" class="uppercase link-padrao">Serviços</a></li>
                 <li><a href="#ofertas" class="uppercase link-padrao">Ofertas</a></li>
                 <li><a href="#localizacao" class="uppercase link-padrao">Localização</a></li>
                 <li><a href="./" class="uppercase link-padrao">Agende agora</a></li>
@@ -68,7 +69,7 @@
         </aside>
     </main>
 
-    <section id="hotel" class="hotel" aria-label="Apresentação do Hotel">
+    <section id="hotel" class="hotel section" aria-label="Apresentação do Hotel">
         <div class="container display-flex">
             <div class="hotel__descricao display-flex">
                 <span class="uppercase hotel--span">Prestando serviços de qualidade desde 1988</span>
@@ -93,7 +94,7 @@
         </div>
     </section>
 
-    <section id="quartos" class="quartos" aria-label="Quartos e Suítes">
+    <section id="quartos" class="quartos section" aria-label="Quartos e Suítes">
         <div class="container display-flex">
             <div class="secao__textos">
                 <h2 class="uppercase secao--titulo">Quartos e Suítes</h2>
@@ -141,7 +142,7 @@
     </section>
 
     <article id="galeria">
-        <ul class="display-flex galeria">
+        <ul class="display-flex galeria__itens">
             <li class="galeria__item">
                 <a href="./">
                     <img src="./assets/img/cuisine-bg.jpg" alt="Imagem de alimentos em uma panela" width="800"
@@ -168,7 +169,7 @@
         </ul>
     </article>
 
-    <section id="instalacoes" aria-label="Instalações">
+    <section id="instalacoes" aria-label="Instalações" class="section">
         <div class="container display-flex">
 
             <div class="secao__textos">
@@ -186,7 +187,8 @@
                         <a href="./" class="uppercase instalacoes--link">Natação e Ginastica</a>
                     </li>
                     <li class="instalacoes--btn">
-                        <a href="./" class="uppercase instalacoes--link">Clube de esportes</a>
+                        <a href="./" class="uppercase instalacoes--link">
+                            Clube de esportes</a>
                     </li>
                     <li class="instalacoes--btn">
                         <a href="./" class="uppercase instalacoes--link">Serviço de bagagens</a>
@@ -195,11 +197,12 @@
                         <a href="./" class="uppercase instalacoes--link">Restaurante/Bar</a>
                     </li>
                 </ul>
+
                 <div class="display-flex instalacoes__conteudo">
                     <div class="display-flex instalacoes--item">
                         <div class="instalacoes--item-imagem">
                             <img src="./assets/img/swimming-bg.jpg" alt="Imagem de pessoa nadando" width="1232"
-                                height="857">
+                                height="875">
                         </div>
                         <div class="instalacoes--item-texto">
                             <span class="instalacoes--item-span">A classe mundial</span>
@@ -214,10 +217,10 @@
                         </div>
                     </div>
 
-                    <!-- <div class="display-flex instalacoes--item">
+                    <div class="display-flex instalacoes--item is-none" id="sports">
                         <div class="instalacoes--item-imagem">
                             <img src="./assets/img/sports-bg.jpg" alt="Imagem de pessoa fazendo ginastica" width="1232"
-                                height="857">
+                                height="875">
                         </div>
                         <div class="instalacoes--item-texto">
                             <span class="instalacoes--item-span">A classe mundial</span>
@@ -232,10 +235,9 @@
                         </div>
                     </div>
 
-                    <div class="display-flex instalacoes--item">
+                    <div class="display-flex instalacoes--item is-none" id="pick">
                         <div class="instalacoes--item-imagem">
-                            <img src="./assets/img/pick-bg.jpg" alt="Imagem de um carro" width="1232"
-                                height="857">
+                            <img src="./assets/img/pick-bg.jpg" alt="Imagem de um carro" width="1232" height="875">
                         </div>
                         <div class="instalacoes--item-texto">
                             <span class="instalacoes--item-span">A classe mundial</span>
@@ -250,10 +252,10 @@
                         </div>
                     </div>
 
-                    <div class="display-flex instalacoes--item">
+                    <div class="display-flex instalacoes--item is-none" id="restaurant">
                         <div class="instalacoes--item-imagem">
                             <img src="./assets/img/restaurant-bg.jpg" alt="Imagem de alimentos" width="1232"
-                                height="857">
+                                height="875">
                         </div>
                         <div class="instalacoes--item-texto">
                             <span class="instalacoes--item-span">A classe mundial</span>
@@ -266,9 +268,100 @@
                                 industry. It has
                                 survived not only five centuries, but also the leap into electronic typesetting.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="#servicos" class="servicos">
+        <div class="display-flex servicos__imagens">
+            <div class="servicos--imagem">
+                <img src="./assets/img/gallery-01.jpg" alt="Imagem de um chefe de cozinha" width="800" height="650">
+            </div>
+            <div class="servicos--imagem">
+                <img src="./assets/img/gallery-02.jpg" alt="Imagem de um pear com alguns botes" width="800"
+                    height="650">
+            </div>
+            <div class="servicos--imagem">
+                <img src="./assets/img/gallery-03.jpg" alt="Imagem de toalhas e escovas de massagens" width="800"
+                    height="650">
+            </div>
+            <div class="servicos--imagem">
+                <img src="./assets/img/gallery-04.jpg" alt="Imagem de crianças nadando" width="800" height="650">
+            </div>
+            <div class="servicos--imagem">
+                <img src="./assets/img/gallery-05.jpg" alt="Imagem de uma refeição" width="800" height="650">
+            </div>
+            <div class="servicos--imagem">
+                <img src="./assets/img/gallery-06.jpg" alt="Imagem de cadeiras de praia de frente para o mar"
+                    width="800" height="650">
+            </div>
+        </div>
+
+        <div class="display-flex servicos__info">
+            <div class="servicos--desc">
+                <img src="./assets/img/restaurant-service-icon01.png" alt="Icone" width="90" height="90">
+                <h2 class="uppercase desc--titulo">ótimo ambiente</h2>
+                <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been.</p>
+            </div>
+            <div class="servicos--desc">
+                <img src="./assets/img/restaurant-service-icon02.png" alt="Icone" width="90" height="90">
+                <h2 class="uppercase desc--titulo">café da manhã grátis</h2>
+                <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been.</p>
+            </div>
+            <div class="servicos--desc">
+                <img src="./assets/img/restaurant-service-icon03.png" alt="Icone" width="90" height="90">
+                <h2 class="uppercase desc--titulo">limpeza todos os dias</h2>
+                <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been.</p>
+            </div>
+            <div class="servicos--desc">
+                <img src="./assets/img/restaurant-service-icon04.png" alt="Icone" width="90" height="90">
+                <h2 class="uppercase desc--titulo">aproveite a vida noturna</h2>
+                <p class="paragrafos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been.</p>
+            </div>
+        </div>
+
+        <div class="display-flex servicos__oferta">
+            <img src="./assets/img/wedding-married.png" alt="Oferta" width="119" height="119">
+            <div class="oferta--paragrafo">
+                <p class="oferta--paragrafo">Oferecemos o cenário perfeito para raros momentos de romance.</p>
+            </div>
+        </div>
+
+        <div class="display-flex servicos__extras">
+            <div class="display-flex extras--item">
+                <h2 class="extras-titulo">Serviços de luxo</h2>
+                <p class="extras-paragrafo">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the standard dummy text.</p>
+                <div class="display-flex extras--cards">
+                    <div class="extras--card">
+                        <h3 class="card--titulo">01. Interior exclusivo</h3>
+                        <p class="card--paragrafo">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                    </div>
+                    <div class="extras--card">
+                        <h3 class="card--titulo">02. Bem-star e spa</h3>
+                        <p class="card--paragrafo">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                    </div>
+                    <div class="extras--card">
+                        <h3 class="card--titulo">03. Bar e restaurane</h3>
+                        <p class="card--paragrafo">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                    </div>
+                    <div class="extras--card">
+                        <h3 class="card--titulo">04. Estacionamento e segurança</h3>
+                        <p class="card--paragrafo">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="extras--item"></div>
         </div>
     </section>
 
