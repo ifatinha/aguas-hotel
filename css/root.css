@@ -12,6 +12,7 @@
 @import "./layout/quartos.css";
 @import "./layout/instalacoes.css";
 @import "./layout/servicos.css";
+@import "./layout/hospedagem.css";
 
 /* Module */
 @import "./module/menu.css";

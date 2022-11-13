@@ -126,6 +126,10 @@
         padding-right: 50px;
     }
 
+    .servicos__info{
+        padding: 50px 2%;
+    }
+
     .extras--item {
         flex-basis: 100%;
     }
@@ -133,6 +137,10 @@
     .extras--item:first-of-type {
         padding: 40px 20px;
         height: auto;
+    }
+
+    .extras--item:last-child {
+        height: 500px;
     }
 }
 
