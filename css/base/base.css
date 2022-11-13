@@ -27,6 +27,11 @@ a {
     text-decoration: none;
 }
 
+iframe {
+    height: 600px;
+    width: 100%;
+}
+
 @media screen and (max-width: 800px) {
     section {
         padding-bottom: 60px;

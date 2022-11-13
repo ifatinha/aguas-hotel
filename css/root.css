@@ -13,6 +13,8 @@
 @import "./layout/instalacoes.css";
 @import "./layout/servicos.css";
 @import "./layout/hospedagem.css";
+@import "./layout/localizacao.css";
+@import "./layout/footer.css";
 
 /* Module */
 @import "./module/menu.css";

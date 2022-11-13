@@ -1,0 +1,36 @@
+.localizacao {
+    align-items: stretch;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    justify-content: center;
+    padding: 110px 2%;
+}
+
+.localizacao__info {
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.localizacao__info i {
+    color: var(--amarelo-01);
+    display: inline-block;
+    font-size: var(--fonte-35);
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.localizacao__info span {
+    color: var(--black-02);
+    display: block;
+    font-size: var(--fonte-14);
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.localizacao__info p,
+.localizacao__info a {
+    color: var(--cinza-02);
+    font-size: var(--fonte-14);
+    line-height: 24px;
+}
