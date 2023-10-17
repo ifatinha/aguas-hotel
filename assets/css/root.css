@@ -5,6 +5,11 @@
 @import "./base/base.css";
 @import "./base/generics.css";
 
+/* Module */
+@import "./module/menu.css";
+@import "./module/galeria.css";
+@import "./module/keyframe.css";
+
 /* Layout */
 @import "./layout/header.css";
 @import "./layout/main.css";
@@ -15,7 +20,3 @@
 @import "./layout/hospedagem.css";
 @import "./layout/localizacao.css";
 @import "./layout/footer.css";
-
-/* Module */
-@import "./module/menu.css";
-@import "./module/galeria.css";

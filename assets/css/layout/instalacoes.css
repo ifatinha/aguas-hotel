@@ -14,7 +14,6 @@
     flex-wrap      : wrap;
     gap            : 5px;
     justify-content: center;
-    border         : darkblue;
     width          : 100%;
 }
 
@@ -23,17 +22,25 @@
     border-top      : 1px solid #e5e5e5;
     border-left     : 1px solid #e5e5e5;
     border-right    : 1px solid #e5e5e5;
+    color           : var(--cinza-04);
+    flex            : 1 1 100%;
+    font-family     : 'Montserrat', sans-serif;
+    font-size       : var(--fonte-12);
+    font-weight     : 600;
+    padding         : 16px 28px;
+    transition      : .3s ease-in-out;
     text-align      : center;
 }
 
-.instalacoes-link {
-    color      : var(--cinza-04);
-    display    : inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size  : var(--fonte-12);
-    font-weight: 600;
-    line-height: 44px;
-    padding    : 0 25px;
+.instalacoes-btn:hover {
+    background-color: var(--cinza-07);
+    cursor          : pointer;
+}
+
+@media screen and (min-width: 991px) {
+    .instalacoes-btn {
+        flex: 1;
+    }
 }
 
 .instalacoes-conteudo {
@@ -44,19 +51,20 @@
 }
 
 .instalacoes-item {
-    align-items    : flex-start;
-    flex-wrap      : wrap;
-    justify-content: center;
+    display              : grid;
+    gap                  : 10px;
+    grid-template-columns: 1fr;
 }
 
-.instalacoes-item-imagem {
-    flex: 1;
+@media screen and (min-width: 991px) {
+    .instalacoes-item {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .instalacoes-item-texto {
-    flex       : 1;
-    margin-left: 80px;
-    padding    : 0 15px;
+    align-self: center;
+    padding   : 0 15px;
 }
 
 .instalacoes-item-texto .paragrafos {
@@ -65,7 +73,7 @@
 
 .instalacoes-item-span {
     color      : var(--cinza-06);
-    font-size  : var(--fonte-18);
+    font-size  : var(--fonte-14);
     line-height: 28px;
 }
 
@@ -78,8 +86,13 @@
     margin-bottom: 15px;
 }
 
-.is-none {
+.js .js-tabcontainer .instalacoes-item {
     display: none;
+}
+
+.js .js-tabcontainer .is-active {
+    animation: show .5s forwards;
+    display  : grid;
 }
 
 @media screen and (max-width: 800px) {
