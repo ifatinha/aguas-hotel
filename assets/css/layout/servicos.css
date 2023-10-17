@@ -1,0 +1,160 @@
+.servicos__imagens {
+    overflow        : hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding  : 24px;
+    width           : 100%;
+}
+
+.servicos--imagem {
+    flex: 1 0 calc(100% / 3);
+}
+
+.servicos__info {
+    align-items     : center;
+    background-color: var(--white-02);
+    flex-wrap       : wrap;
+    gap             : 30px;
+    justify-content : center;
+    margin-top      : -4px;
+    padding         : 150px;
+}
+
+.servicos--desc {
+    flex      : 1 1 280px;
+    padding   : 0 15px;
+    text-align: center;
+}
+
+.desc--titulo {
+    color      : var(--black-02);
+    font-size  : var(--fonte-14);
+    font-weight: 600;
+    line-height: 24px;
+    margin     : 26px 0 5px;
+}
+
+.servicos__oferta {
+    align-items    : center;
+    flex-wrap      : wrap;
+    gap            : 30px;
+    justify-content: center;
+    padding        : 80px 2%;
+}
+
+.oferta--paragrafo {
+    color      : var(--cinza-02);
+    font-size  : var(--fonte-24);
+    font-weight: 300;
+    line-height: 30px;
+    max-width  : 365px;
+}
+
+.servicos__extras {
+    align-items     : stretch;
+    background-color: var(--amarelo-01);
+    flex-wrap       : wrap;
+}
+
+.extras--item {
+    flex  : 1 1 50%;
+    height: 750px;
+}
+
+.extras--item:first-of-type {
+    flex-direction : column;
+    justify-content: center;
+    padding        : 87px;
+}
+
+.extras--item:last-child {
+    background         : linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url("./../../img/luxury-hotel-bg.jpg");
+    background-position: center;
+    background-size    : cover;
+}
+
+.extras-titulo {
+    color        : var(--white-01);
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : var(--fonte-45);
+    font-weight  : 500;
+    line-height  : 50px;
+    margin-bottom: 15px;
+    padding      : 0 15px;
+}
+
+.extras-paragrafo {
+    color        : var(--white-01);
+    font-size    : var(--fonte-18);
+    font-weight  : 300;
+    line-height  : 28px;
+    margin-bottom: 30px;
+    padding      : 0 15px;
+}
+
+.extras--cards {
+    align-items: center;
+    flex-wrap  : wrap;
+    gap        : 20px;
+}
+
+.extras--card {
+    flex   : 1 1 280px;
+    padding: 15px;
+}
+
+.card--titulo {
+    color        : var(--white-01);
+    font-size    : var(--fonte-24);
+    font-weight  : 300;
+    line-height  : 35px;
+    margin-bottom: 8px;
+}
+
+.card--paragrafo {
+    color      : var(--white-01);
+    font-size  : var(--fonte-14);
+    line-height: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    .galeria--imagem {
+        flex-basis: calc(100% / 2);
+    }
+
+    .galeria__info {
+        padding-left : 50px;
+        padding-right: 50px;
+    }
+
+    .servicos__info {
+        padding: 50px 2%;
+    }
+
+    .extras--item {
+        flex-basis: 100%;
+    }
+
+    .extras--item:first-of-type {
+        padding: 40px 20px;
+        height : auto;
+    }
+
+    .extras--item:last-child {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .galeria--imagem {
+        flex-basis: 100%;
+    }
+
+    .galeria__info {
+        padding-left : 4%;
+        padding-right: 4%;
+    }
+
+    .oferta--paragrafo {
+        text-align: center;
+    }
+}

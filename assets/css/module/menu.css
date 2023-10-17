@@ -1,7 +1,7 @@
 /* Menu Mobile */
 
 .n-mobile {
-    background: url("./../../assets/icons/menus.png") no-repeat center;
+    background: url("./../../icons/menus.png") no-repeat center;
     background-size: cover;
     display: none;
     height: 40px;
